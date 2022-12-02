@@ -1,12 +1,11 @@
 import "./MainContainer.css";
 import Card from "./Card";
-import IconDiv from "./icon/IconDiv";
+import star from "./icon/Path.png";
 
 export default function MainContainer() {
   return (
     <div className="MainContainer">
       <Card />
-      <IconDiv />
     </div>
   );
 }
