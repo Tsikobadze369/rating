@@ -1,6 +1,6 @@
 import "./Buttons.css";
 
-export default function Buttons() {
+export default function Buttons(props) {
   const arr = [1, 2, 3, 4, 5];
   return arr.map((number) => {
     return (

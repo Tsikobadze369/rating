@@ -1,0 +1,17 @@
+.selectText {
+  background: #262e38;
+  width: 193px;
+  height: 32px;
+  border-radius: 22.5px;
+  margin-top: 3rem;
+  margin-left: 6.5rem;
+}
+.h1 {
+  margin-left: 7.5rem;
+  color: white;
+}
+.p {
+  font-size: 15px;
+  color: #969fad;
+  margin-top: 3rem;
+}
