@@ -1,9 +1,0 @@
-.MainContainer {
-  max-width: 1440px;
-  height: 100vh;
-  width: 100%;
-  background-color: #131518;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
