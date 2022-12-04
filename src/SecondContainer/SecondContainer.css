@@ -10,7 +10,6 @@
     #232a34 0%,
     #181e27 100%
   );
-  display: none;
 }
 .thankYou {
   height: 96px;
@@ -65,4 +64,56 @@
   letter-spacing: 0px;
   text-align: center;
   color: rgba(150, 159, 173, 1);
+}
+@media only screen and (min-width: 1440px) {
+  .secondaryContainer {
+    height: 416px;
+    width: 420px;
+  }
+
+  .thankYou {
+    height: 108px;
+    width: 220px;
+  }
+
+  .showsSelectedBox {
+    height: 32px;
+    width: 250px;
+    border-radius: 22.5px;
+  }
+
+  .showsSelectedText {
+    height: 24px;
+    width: 170px;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .thankYouText {
+    height: 43px;
+    width: 160px;
+    margin: 36px auto;
+    font-family: "Overpass";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .thankYouLongText {
+    height: 72px;
+    width: 340px;
+    font-family: "Overpass";
+    margin: -10px auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
 }

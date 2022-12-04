@@ -1,7 +1,10 @@
 import "./MainComponants.css";
 import Logo from "../icon/Path.png";
+import RateContainer from "../RateContainer/RateContainer";
+import React, { useState } from "react";
 
-export default function MainComponants() {
+export default function MainComponants(props) {
+  const numbers = [1, 2, 3, 4, 5];
   return (
     <div className="Container">
       <div className="LogoDiv">
@@ -12,14 +15,12 @@ export default function MainComponants() {
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </h3>
-      <div className="containerForRateNumbers">
-        <div className="rate1 oval">1</div>
-        <div className="rate2 oval">2</div>
-        <div className="rate3 oval">3</div>
-        <div className="rate4 oval">4</div>
-        <div className="rate5 oval">5</div>
-      </div>
-      <button className="submit">SUBMIT</button>
+      <RateContainer
+        submited={props.submited}
+        rate={props.rate}
+        numbers={numbers}
+        selectedKey={props.selectedKey}
+      />
     </div>
   );
 }

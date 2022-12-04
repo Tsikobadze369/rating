@@ -1,12 +1,13 @@
 import "./SecondContainer.css";
 import ThankYouIcon from "../icon/ThankYou.png";
+import { useState } from "react";
 
-export default function SecondContainer() {
+export default function SecondContainer(props) {
   return (
     <div className="secondContainer">
       <img src={ThankYouIcon} className="thankYou" />
       <div className="showSelectedBox">
-        <p className="showSelectedText">You selected 4 out of 5</p>
+        <p className="showSelectedText">You selected {props.result} out of 5</p>
       </div>
       <h1 className="ThankYouText">Thank you!</h1>
       <h3 className="thankYouLongText">

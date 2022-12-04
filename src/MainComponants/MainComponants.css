@@ -58,33 +58,42 @@
   flex-direction: row;
   gap: 17px;
 }
-.oval {
-  width: 42px;
-  height: 42px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background: #262e38;
-  border-radius: 50%;
-  font-size: 14px;
-  color: #7c8798;
-  line-height: 24px;
-  letter-spacing: 0.174;
-}
-.oval:hover {
-  cursor: pointer;
-  background-color: #7c8798;
-}
-.submit {
-  width: 279px;
-  height: 45px;
-  border-radius: 22.5px;
-  font-family: "Overpass";
-  font-size: 14px;
-  color: #ffffff;
-  margin-left: 24px;
-  margin-top: 24px;
-  background-color: #fc7614;
-  border-style: none;
-  cursor: pointer;
+@media only screen and (min-width: 1440px) {
+  .Container {
+    height: 416px;
+    width: 412px;
+    border-radius: 30px;
+  }
+
+  .Logo {
+    height: 48px;
+    width: 48px;
+  }
+
+  .headerText {
+    height: 43px;
+    width: 220px;
+    font-family: "Overpass";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .secondaryText {
+    height: 72px;
+    width: 340px;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .containerForRateNumbers {
+    height: 51px;
+    width: 341px;
+  }
 }
